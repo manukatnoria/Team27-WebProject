@@ -10,7 +10,7 @@ include ("header.php");
 <br>
 
 
-<form class="Apply-for-job" action="apply_job.php" method="POST">
+<form class="Apply-for-job" action="form/apply_job.php" method="POST">
     <h1>Job Application Form</h1>
     <label for="fullname">Full Name</label>
     <input type="text" id="fullname" name="fullname" required>
