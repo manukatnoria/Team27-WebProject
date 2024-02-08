@@ -116,3 +116,60 @@ body {
 .nikhil-feedback-form[type="submit"]:hover {
   background-color: #007bff;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Booking Form Styling - Gurpreet */
+
+.booking-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Responsive styling */
+@media screen and (min-width: 768px) {
+  .booking-form {
+      max-width: 500px;
+      margin: 20px auto;
+  }
+}
+

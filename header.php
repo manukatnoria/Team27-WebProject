@@ -29,7 +29,7 @@
                         <a class="nav-link" href="#">Home |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Service |</a>
+                        <a class="nav-link" href="Gurpreet-booking.php">Booking |</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery |</a>
