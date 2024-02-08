@@ -58,3 +58,61 @@ body {
     height: 20%;
     color: white;
   }
+
+
+
+
+
+
+
+
+
+/* Feedback/Suggestion Form - Nikhil */
+
+.nikhil-feedback-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nikhil-feedback-form h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.nikhil-feedback-form label {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.nikhil-feedback-form input[type="text"],
+.nikhil-feedback-form input[type="email"],
+.nikhil-feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.nikhil-feedback-form textarea {
+  height: 150px;
+}
+
+.nikhil-feedback-form [type="submit"] {
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.nikhil-feedback-form[type="submit"]:hover {
+  background-color: #007bff;
+}

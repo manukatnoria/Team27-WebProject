@@ -35,7 +35,7 @@
                         <a class="nav-link" href="#">Gallery |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Review |</a>
+                        <a class="nav-link" href="Nikhil-feedback.php">Feedback/Suggestion |</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
