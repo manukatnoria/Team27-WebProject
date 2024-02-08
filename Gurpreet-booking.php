@@ -2,7 +2,7 @@
 include ("header.php");
 ?>
 
-<h1>Hellow i am Gurpreet</h1>
+<h1>Hi! i am Gurpreet</h1>
 
 
 <?php
