@@ -5,8 +5,21 @@ include("header.php");
     <!-- Header Section -->
     <div class="header">
         <h1 class="headerText">WELCOME TO OUR COMPANY. WE ARE HERE TO HELPING YOU</h1>
-        <div><button class="btn btn-primary">Working With Us</button></div>
+        <div>
+            <button onclick="redirectToJobPage()" class="btn btn-primary">Work With Us</button>
+        </div>
+     <!-- Add an onclick event to call the redirectToJobPage function -->
     </div>
+
+    
+    <script>
+       function redirectToJobPage() {
+        // Redirect to Manpreet-job.php
+        window.location.href = 'Manpreet-job.php';
+       }
+    </script>
+
+
 
     <!-- Body Content Section -->
     <div class="container mx-5 my-5">
