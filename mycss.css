@@ -1,0 +1,60 @@
+
+.headerText{
+    width: 43%;
+    font-size: 3.5rem;
+    color: black;
+    margin-left: 5%;
+}
+
+.btn-primary{
+    background-color: rgb(127, 205, 205);
+    border-color: rgb(127, 205, 205);
+    margin-left: 5%;
+}
+
+body {
+    background-color: #E0E1DB;  /* light gray background */
+    color: #495057; /* gray text color */
+  }
+
+  .header {
+    background-image: url('Picture1.jpg'); /* Add your actual path to the header image */
+    background-size: cover;
+    color: white;
+    padding: 100px 0; 
+  }
+
+  .navbar {
+    background-color: #E0E1DB; /* dark gray navbar background */
+  }
+
+  .navbar a {
+    color: rgb(2, 2, 2);
+  }
+  .nav-link:focus, .nav-link:hover {
+  color: rgb(80 186 246);
+}
+  .work-with-us-button {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .grey-box {
+    background-color: #e9ecef; /* light gray box background */
+    padding: 20px;
+    margin: 20px 0;
+    color: #033669;
+  }
+
+  #navbarNav{
+      justify-content: end;
+  }
+  .titleH{
+      font-family: "Bodoni MT Black";
+      font-size: -webkit-xxx-large;
+  }
+  .footer{
+    background-color: #82837B;
+    height: 20%;
+    color: white;
+  }
