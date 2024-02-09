@@ -9,7 +9,7 @@
 
 - Below, you will find an example to help you get started. Feel free to customize it to match your specific requirements and needs.
 
-# Project Name - Team Number
+# PTK Cleaning - Team 27
 
 PTK Cleaning: Offering top-notch cleaning services and job opportunities on one user-friendly website.
 
