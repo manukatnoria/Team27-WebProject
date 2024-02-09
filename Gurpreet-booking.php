@@ -6,7 +6,7 @@ include ("header.php");
 <br>
 <br>
 <center>
-<h1>Book Ez Rest Ez Stay Clean EZ!</h1>
+<h1>Book our services</h1>
 </center>
 <br>
 <br>
