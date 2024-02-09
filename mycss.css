@@ -69,6 +69,12 @@ body {
 
 /* Feedback/Suggestion Form - Nikhil */
 
+.fg 
+ {
+   text-align: center;
+   color: black;
+}
+
 .nikhil-feedback-form {
   max-width: 600px;
   margin: 0 auto;
