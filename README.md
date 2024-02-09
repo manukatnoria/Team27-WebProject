@@ -55,7 +55,7 @@ Explore investment opportunities with PTK Cleaning and become a part of our jour
 List the database tables that are part of your project. 
 
 - Table 1 (Created By Gurpreet Singh):  Services
-- Table 2 (Created By Nikhil): Careers 
+- Table 2 (Created By Manpreet): Careers 
 - Table 3 (Created By Nikhil): feedback/suggestions
 - Table 4 (Created By Farhana): Investors
 > Include the ER Diagram of the database.
@@ -68,10 +68,10 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-- Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+- Form 1 (Created By Gurpreet): booking-form: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+- Form 2: (Created By Manpreet): Apply-for-job: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+- Form 3: (Created By Nikhil): Feedback/Suggestion: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
 - Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-
 
 ---
 
