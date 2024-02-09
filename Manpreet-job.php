@@ -1,17 +1,18 @@
 <?
+$title = "Apply to work";
 include ("header.php");
 ?>
 <br>
 <br>
 <center>
-<h1>Hellow i am Manpreet</h1>
+<h1>Welcome to a Flexible schedule and Wealthy Life</h1>
 </center>
 <br>
 <br>
 
 
 <form class="Apply-for-job" action="form/apply_job.php" method="POST">
-    <h1>Job Application Form</h1>
+    <h1>Job Application </h1>
     <label for="fullname">Full Name</label>
     <input type="text" id="fullname" name="fullname" required>
 

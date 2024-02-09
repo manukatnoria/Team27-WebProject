@@ -1,10 +1,11 @@
 <?php
+$title = "Feedback/Suggestions ";
 include("header.php");
 ?>
   
 <br>
 <br>
-<Center><h1>Feedback Form</h1></Center>
+<Center><h1>Your Feedback is Gold for Us</h1></Center>
 <br>
 <br>
 

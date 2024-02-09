@@ -1,4 +1,5 @@
 <?php
+$title = "Booking your fav.";
 include ("header.php");
 ?>
 
