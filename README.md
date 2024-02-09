@@ -34,15 +34,15 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Booking
 
-Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php & link to the feature (shell.hamk.fi) .
 
 ### Applying for Job with Us
 
-Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php & link to the feature (shell.hamk.fi) .
 
 ### Feedback/Suggestion
 
-We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php & link to the feature (shell.hamk.fi) .
 
 ### Investors
 
