@@ -5,9 +5,7 @@ include("header.php");
   
 <br>
 <br>
-
   <h1 class="fg">Your Feedback is Gold for Us</h1>
-
 <br>
 <br>
 
