@@ -1,4 +1,4 @@
-<?
+<?php
 $title = "Apply to work";
 include ("header.php");
 ?>
