@@ -11,7 +11,7 @@
 
 # Project Name - Team Number
 
-A brief description of your web development project.
+PTK Cleaning: Offering top-notch cleaning services and job opportunities on one user-friendly website.
 
 ## Table of Contents
 - [Features](#features)
@@ -25,23 +25,28 @@ A brief description of your web development project.
 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
-- [ ] Feature 1 (Full Name): Title of the feature. 
-- [ ] Feature 2 (Full Name): Title of the feature.
-- [ ] Feature 3 (Full Name): Title of the feature.
+- [ ] Feature 1 (Gurpreet Singh): Booking. 
+- [ ] Feature 2 (Manpreet Kaur): Applying for Job with Us.
+- [ ] Feature 3 (Nikhil): Feedback/Suggestion.
+- [ ] Feature 4 (Farhana): Investors.
 
 > Add features as required. 
 
-### Feature 1
+### Booking
 
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
-### Feature 2
+### Applying for Job with Us
 
-Include more detailed information about Feature 2 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
-### Feature 3
+### Feedback/Suggestion
 
-Include more detailed information about Feature 3 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+
+### Investors
+
+Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make and All the Arrangements on Email. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
 
 ---
 
@@ -49,12 +54,12 @@ Include more detailed information about Feature 3 here. Provide links to related
 
 List the database tables that are part of your project. 
 
-- Table 1 (Created By): Table Name 
-- Table 2 (Created By): Table Name 
-- Table 3 (Created By): Table Name 
+- Table 1 (Created By Gurpreet Singh):  Services
+- Table 2 (Created By Nikhil): Careers 
+- Table 3 (Created By Nikhil): feedback/suggestions
 
 > Include the ER Diagram of the database. 
-
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
 ---
 
 ## Created Forms
