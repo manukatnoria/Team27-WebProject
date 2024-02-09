@@ -57,9 +57,11 @@ List the database tables that are part of your project.
 - Table 1 (Created By Gurpreet Singh):  Services
 - Table 2 (Created By Nikhil): Careers 
 - Table 3 (Created By Nikhil): feedback/suggestions
+- Table 4 (Created By Farhana): Investors
+> Include the ER Diagram of the database.
 
-> Include the ER Diagram of the database. 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Databae Tables](database.png)
+
 ---
 
 ## Created Forms
