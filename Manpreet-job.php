@@ -4,9 +4,9 @@ include ("header.php");
 ?>
 <br>
 <br>
-<center>
-<h1>Welcome to a Flexible schedule and Wealthy Life</h1>
-</center>
+
+<h1 class="fg">Welcome to a Flexible schedule and Wealthy Life</h1>
+
 <br>
 <br>
 

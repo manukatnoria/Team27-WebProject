@@ -1,10 +1,11 @@
 <?php
 include("header.php");
+$title = "Investing";
 ?>
 
 <br>
 <br>
-<h1 class="fg">Invest with Us</h1>
+<h1 class="fg">Invest in Us</h1>
 <br>
 <br>
 

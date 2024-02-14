@@ -25,24 +25,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+
                     <li class="nav-item">
-                        <a class="nav-link" href="home.php">Home |</a>
+                        <a class="nav-link" href="home.php">Home  |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Gurpreet-booking.php">Services |</a>
+                        <a class="nav-link" href="Gurpreet-booking.php">Services  |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Manpreet-job.php">Careers |</a>
+                        <a class="nav-link" href="Manpreet-job.php">Careers  |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Nikhil-feedback.php">Feedback/Suggestion |</a>
+                        <a class="nav-link" href="Nikhil-feedback.php">Feedback/Suggestion  |</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Farhana-investor.php">Investors |</a>
+                        <a class="nav-link" href="Farhana-investor.php">Investors </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
+
                 </ul>
             </div>
         </div>
