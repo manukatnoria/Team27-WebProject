@@ -232,3 +232,53 @@ body {
 .Apply-for-job[type="submit"]:hover {
   background-color: #007bff;
 }
+
+
+
+
+
+/* Farhana - investor form */
+
+.Farhana {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.Farhana label {
+  font-weight: bold;
+}
+
+.Farhana input[type="text"],
+.Farhana input[type="email"],
+.Farhana input[type="tel"],
+.Farhana input[type="number"],
+.Farhana textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Farhana textarea {
+  resize: vertical;
+}
+
+.Farhana input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.Farhana input[type="submit"]:hover {
+  background-color: #45a049;
+}
