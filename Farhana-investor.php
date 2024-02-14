@@ -1,6 +1,6 @@
 <?php
-include("header.php");
 $title = "Investing";
+include("header.php");
 ?>
 
 <br>
