@@ -5,9 +5,7 @@ include ("header.php");
 
 <br>
 <br>
-
 <h1 class="fg">Book our services</h1>
-
 <br>
 <br>
 
