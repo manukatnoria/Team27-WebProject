@@ -38,6 +38,9 @@
                         <a class="nav-link" href="Nikhil-feedback.php">Feedback/Suggestion |</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="Farhana-investor.php">Investors |</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
