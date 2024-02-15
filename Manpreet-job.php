@@ -1,7 +1,45 @@
 <?php
 $title = "Apply to work";
 include ("header.php");
+
+if (isset($_POST['submit'])) {
+    // Retrieve data from the form and store it in variables
+    $name = $_POST['name']; // Name
+    $email = $_POST['email'];       // Email
+    $phone = $_POST['phone'];       // Phone
+
+    // Include the database connection file
+    include 'db.php';
+
+    // Check if the email already exists in the database
+    $check_email_query = "SELECT * FROM Careers WHERE email = '$email'";
+    $result = $conn->query($check_email_query);
+
+    if ($result->num_rows > 0) {
+        // If the email already exists, display an error message
+        echo "<div class='alert alert-danger' role='alert'>Email already exists. 
+        Please provide a different email OR Edit your Submission.</div>";
+    } else {
+        // Define an SQL query to insert data into the 'Careers' table
+        $sql = "INSERT INTO Careers (name, email, phone)
+                VALUES ('$name', '$email', '$phone')";
+
+        // Execute the SQL query using the database connection
+        if ($conn->query($sql) === TRUE) {
+            // If the query was successful, display a success message
+            echo "<div class='alert alert-success' role='alert'>Feedback submitted successfully.</div>";
+        } else {
+            // If there was an error in the query, display an error message
+            echo "<div class='alert alert-danger' role='alert'>Error: " . $sql . "<br>". $conn->error."</div>";
+        }
+    }
+
+    // Close the database connection
+    $conn->close();
+}
 ?>
+
+
 <br>
 <br>
 
@@ -11,20 +49,16 @@ include ("header.php");
 <br>
 
 
-<form class="Apply-for-job" action="form/apply_job.php" method="POST">
+<form class="Apply-for-job" action="" method="POST">
     <h1>Job Application </h1>
-    <label for="fullname">Full Name</label>
-    <input type="text" id="fullname" name="fullname" required>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
 
     <label for="email">Email</label>
     <input type="email" id="email" name="email" required>
 
     <label for="phone">Phone</label>
     <input type="text" id="phone" name="phone" required>
-
-    <label for="resume">Resume (PDF/Docx)</label>
-    <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
-
     <input type="submit" value="Submit">
 </form>
 
