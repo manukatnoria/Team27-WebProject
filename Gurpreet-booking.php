@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
 <br>
 <br>
 
-<<form action="" method="POST" class="booking-form">
+ <form action="" method="POST" class="booking-form">
 
 
     <label for="name">Name:</label>
