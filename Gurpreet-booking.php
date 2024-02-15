@@ -78,7 +78,8 @@ if (isset($_POST['submit'])) {
     <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
     <input type="submit" value="Submit!!" name="submit">
 
-    
+       
+</form>
 
 <?php
 include("footer.php");
