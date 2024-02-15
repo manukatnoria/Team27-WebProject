@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
     $conn->close();
 }
 ?>
-?>
+
 
 <br>
 <br>
@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
 <br>
 <br>
 
-<<form action="form/booking-process.php" method="POST" class="booking-form">
+<<form action="" method="POST" class="booking-form">
 
 
     <label for="name">Name:</label>
