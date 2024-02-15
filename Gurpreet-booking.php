@@ -79,7 +79,8 @@ if (isset($_POST['submit'])) {
     <input type="submit" value="Submit!!" name="submit">
 
 <!-- Edit Your Response button -->
-<a href="form/edit_booking.php" class="edit-response-button">Edit Your Response</a>
+<a href="form/submit_feedback.php" class="edit-response-button">Edit Your Response</a>
+</form>
 
 <?php
 include("footer.php");
