@@ -24,14 +24,14 @@ if (isset($_POST['submit'])) {
         Please provide a different email OR Edit your Submission.</div>";
     } else {
          // Define an SQL query to insert data into the 'bookings' table
-         $sql = "INSERT INTO bookings (name, email, phone, service, date, message)
+         $sql = "INSERT INTO services (name, email, phone, service, date, message)
          VALUES ('$name', '$email', '$phone', '$service', '$date', '$message')";
          
 
         // Execute the SQL query using the database connection
         if ($conn->query($sql) === TRUE) {
             // If the query was successful, display a success message
-            echo "<div class='alert alert-success' role='alert'>Feedback submitted successfully.</div>";
+            echo "<div class='alert alert-success' role='alert'>Service booked successfully.</div>";
         } else {
             // If there was an error in the query, display an error message
             echo "<div class='alert alert-danger' role='alert'>Error: " . $sql . "<br>". $conn->error."</div>";
