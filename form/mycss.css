@@ -80,8 +80,7 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .nikhil-feedback-form h1 {
@@ -120,28 +119,9 @@ body {
 }
 
 .nikhil-feedback-form[type="submit"]:hover {
-  background-color:#007bff ;
-}
-
-
-.nikhil-feedback-form [type="submit"],
-.edit-response-button {
-  background-color: #1e90ff;
-  color: #ffffff;
-  border: none;
-  padding: 12px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 1rem;
-  display: inline-block; /* Display the buttons inline */
-  margin-right: 10px; /* Adjust the spacing between buttons */
-  text-decoration: none; /* Remove underline */
-}
-
-.nikhil-feedback-form [type="submit"]:hover,
-.edit-response-button:hover {
   background-color: #007bff;
 }
+
 
 
 
