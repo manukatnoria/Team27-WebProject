@@ -76,10 +76,11 @@ if (isset($_POST['submit'])) {
 
     <label for="message">Message:</label><br>
     <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Let's Gooo!!" name="submit">
 
-    <input type="submit" value="Submit">
-       </form> <!-- Edit Your Response button -->
-       <a href="form/edit_booking.php" class="edit-response-button">Edit Your Response</a>
+<!-- Edit Your Response button -->
+<a href="form/submit_feedback.php" class="edit-response-button">Edit Your Response</a>
+</form>
 
 <?php
 include("footer.php");
