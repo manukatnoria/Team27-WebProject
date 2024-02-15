@@ -78,9 +78,7 @@ if (isset($_POST['submit'])) {
     <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
     <input type="submit" value="Submit!!" name="submit">
 
-<!-- Edit Your Response button -->
-<a href="form/submit_feedback.php" class="edit-response-button">Edit Your Response</a>
-</form>
+    
 
 <?php
 include("footer.php");
