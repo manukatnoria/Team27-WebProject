@@ -4,14 +4,13 @@ include ("header.php");
 
 if (isset($_POST['submit'])) {
     // Retrieve data from the form and store it in variables
-    $name = $_POST['name']; // Name
-    $email = $_POST['email'];       // Email
-    $phone = $_POST['phone'];       // Phone
+    $name = $_POST['name']; 
+    $email = $_POST['email'];      
+    $phone = $_POST['phone'];       
 
-    // Include the database connection file
     include 'db.php';
 
-    // Check if the email already exists in the database
+    // Checking if the email already exists in the database
     $check_email_query = "SELECT * FROM Careers WHERE email = '$email'";
     $result = $conn->query($check_email_query);
 
@@ -20,7 +19,7 @@ if (isset($_POST['submit'])) {
         echo "<div class='alert alert-danger' role='alert'>Email already exists. 
         Please provide a different email OR Edit your Submission.</div>";
     } else {
-        // Define an SQL query to insert data into the 'Careers' table
+        // Define an SQL query to insert data into the table in database
         $sql = "INSERT INTO Careers (name, email, phone)
                 VALUES ('$name', '$email', '$phone')";
 
@@ -34,7 +33,6 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    // Close the database connection
     $conn->close();
 }
 ?>
