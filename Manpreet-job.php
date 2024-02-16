@@ -11,7 +11,7 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
     // Checking if the email already exists in the database
-    $check_email_query = "SELECT * FROM Careers WHERE email = '$email'";
+    $check_email_query = "SELECT * FROM careers WHERE email = '$email'";
     $result = $conn->query($check_email_query);
 
     if ($result->num_rows > 0) {

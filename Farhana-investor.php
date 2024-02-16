@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include 'db.php';
 
     // Check if the email already exists in the database
-    $check_email_query = "SELECT * FROM Invest WHERE email = '$email'";
+    $check_email_query = "SELECT * FROM invest WHERE email = '$email'";
     $result = $conn->query($check_email_query);
 
     if ($result->num_rows > 0) {
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<div class='alert alert-danger' role='alert'>Email already exists. 
         Please provide a different email OR Edit your Submission.</div>";
     } else {
-        $sql = "INSERT INTO Invest (name, email, phone, amount, message)
+        $sql = "INSERT INTO invest (name, email, phone, amount, message)
         VALUES ('$name', '$email', '$phone', '$amount', '$message')";
 
         // Execute the SQL query using the database connection
