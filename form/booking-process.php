@@ -3,13 +3,12 @@ $title = "Bookings";
 include("header.php");
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investor Directory</title>
+    <title><?php echo $title; ?></title> <!-- Use PHP variable for title -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,7 +38,7 @@ include("header.php");
         .button {
             display: block;
             width: 150px;
-            margin: 0 auto;
+            margin: 20px auto; /* Added margin for separation */
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -54,14 +53,8 @@ include("header.php");
     </style>
 </head>
 <body>
-    <h1>Current Bookings</h1>
-</body>
-</html>
-
-
-
-
-<?
+    <h1><?php echo $title; ?></h1> <!-- Use PHP variable for title -->
+    <?php
     include 'db.php';
 
     // Query to retrieve all data from the 'services' table
@@ -71,10 +64,9 @@ include("header.php");
     $result = $conn->query($sql);
 
     // Check if there are any records
-    if ($result->num_rows > 0) {
-        echo "<table border='1'>";
-        echo "<tr><th>Name</th><th>Phone</th>
-        <th>Service</th><th>Date</th><th>Message</th></tr>";
+    if ($result && $result->num_rows > 0) { // Check if query was successful
+        echo "<table>"; // Removed 'border' attribute
+        echo "<tr><th>Name</th><th>Phone</th><th>Service</th><th>Date</th><th>Message</th></tr>";
         // Output data of each row
         while($row = $result->fetch_assoc()) {
             echo "<tr>";
@@ -83,20 +75,21 @@ include("header.php");
             echo "<td>" . $row["service"]. "</td>";
             echo "<td>" . $row["date"]. "</td>";
             echo "<td>" . $row["message"]. "</td>";
+            echo "</tr>"; // Close table row
         }
         echo "</table>";
     } else {
         echo "No bookings yet.";
     }
-    
+
     // Close the database connection
     $conn->close();
-?>
+    ?>
 
-<br>
-<br>
-<a href="edit-booking.php" class="button">Edit/Delete booking</a>
+    <a href="edit-booking.php" class="button">Edit/Delete booking</a>
+</body>
+</html>
 
-<?
+<?php
 include("footer.php");
 ?>

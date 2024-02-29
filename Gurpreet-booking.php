@@ -1,95 +1,84 @@
 <?php
-$title = "Bookings";
-include("header.php");
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title; ?></title> <!-- Use PHP variable for title -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        .button {
-            display: block;
-            width: 150px;
-            margin: 20px auto; /* Added margin for separation */
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
-<body>
-    <h1><?php echo $title; ?></h1> <!-- Use PHP variable for title -->
-    <?php
+    $title = "Booking";
     include 'db.php';
+    include 'header.php';
 
-    // Query to retrieve all data from the 'services' table
-    $sql = "SELECT name, phone, service, date, message FROM services";
+    if(isset($_POST['submit'])) {
+        $name = mysqli_real_escape_string($conn, $_POST['name']); // SQL Injection prevention
+        $email = mysqli_real_escape_string($conn, $_POST['email']);
+        $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+        $service = mysqli_real_escape_string($conn, $_POST['service']);
+        $date = mysqli_real_escape_string($conn, $_POST['date']);
+        $message = mysqli_real_escape_string($conn, $_POST['message']);
 
-    // Execute the query
-    $result = $conn->query($sql);
+        $sql = "INSERT INTO services (name, email, phone, service, date, message) 
+                VALUES ('$name', '$email', '$phone', '$service', '$date', '$message')";
 
-    // Check if there are any records
-    if ($result && $result->num_rows > 0) { // Check if query was successful
-        echo "<table>"; // Removed 'border' attribute
-        echo "<tr><th>Name</th><th>Phone</th><th>Service</th><th>Date</th><th>Message</th></tr>";
-        // Output data of each row
-        while($row = $result->fetch_assoc()) {
-            echo "<tr>";
-            echo "<td>" . $row["name"]. "</td>";
-            echo "<td>" . $row["phone"]. "</td>";
-            echo "<td>" . $row["service"]. "</td>";
-            echo "<td>" . $row["date"]. "</td>";
-            echo "<td>" . $row["message"]. "</td>";
-            echo "</tr>"; // Close table row
-        }
-        echo "</table>";
+
+
+    // Check if the email already exists in the database
+    $check_email_query = "SELECT * FROM services WHERE email = '$email'";
+    $result = $conn->query($check_email_query);
+
+    if ($result->num_rows > 0) {
+        // If the email already exists, display an error message
+        echo "<div class='alert alert-danger' role='alert'>Email already exists. 
+        Please provide a different email OR Edit your Submission.</div>";
     } else {
-        echo "No bookings yet.";
+        // Define an SQL query to insert data into the 'services' table
+        $sql = "INSERT INTO services (name, email, phone, service, date, message) 
+        VALUES ('$name', '$email', '$phone', '$service', '$date', '$message')";
+
+        // Execute the SQL query using the database connection
+        if ($conn->query($sql) === TRUE) {
+            // If the query was successful, display a success message
+            echo "<div class='alert alert-success' role='alert'>Booking Successfull.</div>";
+        } else {
+            // If there was an error in the query, display an error message
+            echo "<div class='alert alert-danger' role='alert'>Error: " . $sql . "<br>". $conn->error."</div>";
+        }
     }
 
     // Close the database connection
     $conn->close();
-    ?>
+}
+?>
 
-    <a href="edit-booking.php" class="button">Edit/Delete booking</a>
-</body>
-</html>
+
+    <script src="form_validation.js"></script>
+    <br>
+    <br>
+    <h1 class="fg">Book our services</h1>
+    <br>
+    <br>
+
+
+<form action="" method="POST" class="booking-form" onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" required><br><br>
+
+    <label for="service">Service:</label>
+    <select id="service" name="service" required>
+        <option value="cleaning">Cleaning</option>
+        <option value="window">Window Washing</option>
+        <option value="carpet">Carpet Cleaning</option>
+    </select><br><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Submit" name="submit">
+    <a href="form/booking-process.php" class="edit-response-button">Current Bookings</a>
+</form>
 
 <?php
-include("footer.php");
+    include("footer.php");
 ?>
