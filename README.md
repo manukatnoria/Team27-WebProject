@@ -1,14 +1,3 @@
-# Exercise 5: Readme.md
-
-***Welcome to the task README!***
-
-- You are required to create ´Readme.md´ in your project directory to document your activities throughout the project's lifecycle. 
-- You will regularly update it to monitor the ongoing development of the project. 
-
-- You will start by outlining the planned features, task assignments to team members and document the evolving progress of your work. 
-
-- Below, you will find an example to help you get started. Feel free to customize it to match your specific requirements and needs.
-
 # PTK Cleaning - Team 27
 
 PTK Cleaning: Offering top-notch cleaning services and job opportunities on one user-friendly website.
@@ -33,19 +22,19 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Booking
 
-Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php & link to the feature (shell.hamk.fi) .
+Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) & link to the feature (shell.hamk.fi) .
 
 ### Applying for Job with Us
 
-Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & link to the feature (shell.hamk.fi) .
+Users can effortlessly, submit their applications by just giving their Name, Email and Phone Number. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & [Shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/) .
 
 ### Feedback/Suggestion
 
-We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. [Nikhil - Github](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) & [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/) .
+We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every Thought. [Github - Nikhil](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) & [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/) .
 
 ### Investors
 
-Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make and All the Arrangements on Email. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make All the Arrangements on Email. [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) & link to the feature (shell.hamk.fi) .
 
 ---
 
@@ -53,37 +42,23 @@ Explore investment opportunities with PTK Cleaning and become a part of our jour
 
 List the database tables that are part of your project. 
 
-- Table 1 (Created By Gurpreet Singh):  Services
-- Table 2 (Created By Manpreet): Careers 
-- Table 3 (Created By Nikhil): feedback/suggestions
-- Table 4 (Created By Farhana): Investors
+- Table 1 (Created By Gurpreet Singh):    services
+- Table 2 (Created By Manpreet):          careers 
+- Table 3 (Created By Nikhil):            feedback
+- Table 4 (Created By Farhana):           invest
 > Include the ER Diagram of the database.
 
-![Databae Tables](database.png)
+![Database Tables](database.png)
 
 ---
 
 ## Created Forms
 
-List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
+List and describe any forms that have been created as part of your project.
 
-- Form 1 (Created By Gurpreet): booking-form: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Created By Manpreet): Apply-for-job: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By Nikhil): Feedback/Suggestion: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-
----
-
-## Created Tables
-
-List any tables that you have created in the project work
-
-- Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | Link to the form (shell.hamk.fi).
+- Form 2: (Created By Manpreet): Apply-for-job: [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) | [Shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/Manpreet-job.php).
+- Form 3: (Created By Nikhil): Feedback/Suggestion: [Github - Nikhil](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) | [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/Nikhil-feedback.php).
+- Form 4: (Created By Farhana): Invest in Us: Link to the related code file (github) | Link to the form (shell.hamk.fi).
 
 ---
-
-
-
-> Feel free to customize this README template to suit your project's specific needs. Providing clear and organized documentation will help your team members understand the project's progress and tasks effectively. This document will have a significant impact on the grading. 
