@@ -34,7 +34,7 @@ We value our user's input! Share your thoughts and suggestions with us, Whether 
 
 ### Investors
 
-Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make All the Arrangements on Email. [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) & link to the feature (shell.hamk.fi) .
+Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make All the Arrangements on Email. [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) & [Shell - Farhana](http://shell.hamk.fi/~farhana21000/Team27-WebProject) .
 
 ---
 
@@ -59,6 +59,6 @@ List and describe any forms that have been created as part of your project.
 - Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | [Shell - Gurpreet23000](http://shell.hamk.fi/~gurpreet23000/Team27-WebProject/Gurpreet-booking.php).
 - Form 2: (Created By Manpreet): Apply-for-job: [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) | [Shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/Manpreet-job.php).
 - Form 3: (Created By Nikhil): Feedback/Suggestion: [Github - Nikhil](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) | [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/Nikhil-feedback.php).
-- Form 4: (Created By Farhana): Invest in Us: [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) | Link to the form (shell.hamk.fi).
+- Form 4: (Created By Farhana): Invest in Us: [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) | [Shell - Farhana](http://shell.hamk.fi/~farhana21000/Team27-WebProject/Farhana-investor.php).
 
 ---
