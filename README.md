@@ -22,7 +22,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Booking
 
-Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) & link to the feature (shell.hamk.fi) .
+Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) & [Shell - Gurpreet23000](http://shell.hamk.fi/~gurpreet23000/Team27-WebProject/) .
 
 ### Applying for Job with Us
 
@@ -56,7 +56,7 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project.
 
-- Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | Link to the form (shell.hamk.fi).
+- Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | [Shell - Gurpreet23000](http://shell.hamk.fi/~gurpreet23000/Team27-WebProject/Gurpreet-booking.php).
 - Form 2: (Created By Manpreet): Apply-for-job: [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) | [Shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/Manpreet-job.php).
 - Form 3: (Created By Nikhil): Feedback/Suggestion: [Github - Nikhil](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) | [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/Nikhil-feedback.php).
 - Form 4: (Created By Farhana): Invest in Us: [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) | Link to the form (shell.hamk.fi).
