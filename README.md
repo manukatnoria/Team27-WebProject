@@ -55,8 +55,8 @@ List the database tables that are part of your project.
 
 - Table 1 (Created By Gurpreet Singh):  Services
 - Table 2 (Created By Manpreet): Careers 
-- Table 3 (Created By Nikhil): feedback/suggestions
-- Table 4 (Created By Farhana): Investors
+- Table 3 (Created By Nikhil): feedback
+- Table 4 (Created By Farhana): Invest
 > Include the ER Diagram of the database.
 
 ![Databae Tables](database.png)
@@ -67,10 +67,10 @@ List the database tables that are part of your project.
 
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-- Form 1 (Created By Gurpreet): booking-form: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-- Form 2: (Created By Manpreet): Apply-for-job: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By Nikhil): Feedback/Suggestion: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-- Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
+- Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | Link to the form (shell.hamk.fi). | Validations Applied
+- Form 2: (Created By Manpreet): Apply-for-job: [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) | Link to the form (shell.hamk.fi).  | Validations Applied
+- Form 3: (Created By Nikhil): Feedback/Suggestion: [Nikhil - Github](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) | [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/Nikhil-feedback.php).  | Validations Applied
+- Form 3: (Created By Farhana): Invest in Us: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
 
 ---
 
