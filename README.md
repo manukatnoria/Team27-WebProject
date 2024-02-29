@@ -37,7 +37,7 @@ Users can easily select their desired service, specify the date and time and Dro
 
 ### Applying for Job with Us
 
-Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php & link to the feature (shell.hamk.fi) .
+Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & link to the feature (shell.hamk.fi) .
 
 ### Feedback/Suggestion
 
