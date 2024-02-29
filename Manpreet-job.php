@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
     $conn->close();
 }
 ?>
-
+<script src="form_validation.js"></script>
 
 <br>
 <br>

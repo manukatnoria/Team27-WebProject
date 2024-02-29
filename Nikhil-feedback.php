@@ -38,6 +38,7 @@ if (isset($_POST['submit'])) {
     $conn->close();
 }
 ?>
+<script src="form_validation.js"></script>
 
 <br>
 <br>
@@ -45,14 +46,14 @@ if (isset($_POST['submit'])) {
 <br>
 <br>
 
-<form action="" method="post" class="nikhil-feedback-form">
+<form action="" method="post" class="nikhil-feedback-form" onsubmit="return validateForm()">
 
-  <label for="name">Your Name:</label><br>
+  <label for="name">Your Name*:</label><br>
   <input type="text" id="name" name="name" required><br><br>  
-  <label for="email">Your Email:</label><br>
+  <label for="email">Your Email*:</label><br>
   <input type="email" id="email" name="email" required><br><br>
 
-  <label for="message">Your Feedback/Suggestion:</label><br>
+  <label for="message">Your Feedback/Suggestion*:</label><br>
   <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
   <input type="submit" value="Let's Gooo!!" name="submit">

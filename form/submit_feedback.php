@@ -2,10 +2,10 @@
 $title = "Feedback/Suggestions ";
 include("header.php");
 
-// Include the database connection file
 include 'db.php';
 
 ?>
+<script src="form_validation.js"></script>
 
 <br>
 <br>
@@ -13,7 +13,7 @@ include 'db.php';
 <br>
 <br>
 
-<form action="" method="post" class="nikhil-feedback-form">
+<form action="" method="post" class="nikhil-feedback-form" onsubmit="return validateForm()">
     <label for="email">Enter Your Email to Edit Your Response:</label><br>
     <input type="email" id="email" name="email" required><br><br>
     <input type="submit" value="Edit Your Response" name="edit_response">

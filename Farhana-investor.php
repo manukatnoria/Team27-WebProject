@@ -41,9 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
-
-
-?>
+<script src="form_validation.js"></script>
 
 <br>
 <br>
