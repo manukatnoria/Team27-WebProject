@@ -33,7 +33,7 @@ In this section, list and describe the features or functionality that you are wo
 
 ### Booking
 
-Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php & link to the feature (shell.hamk.fi) .
+Users can easily select their desired service, specify the date and time and Drop a Personalised messages for more Specific Service. [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) & link to the feature (shell.hamk.fi) .
 
 ### Applying for Job with Us
 
@@ -45,7 +45,7 @@ We value our user's input! Share your thoughts and suggestions with us, Whether 
 
 ### Investors
 
-Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make and All the Arrangements on Email. Provide links to related code files (github) & link to the feature (shell.hamk.fi) .
+Explore investment opportunities with PTK Cleaning and become a part of our journey towards innovation and growth, Just Enter your Details and we will make and All the Arrangements on Email. [Github - Farhana](https://github.com/manukatnoria/Team27-WebProject/blob/main/Farhana-investor.php) & link to the feature (shell.hamk.fi) .
 
 ---
 
