@@ -30,7 +30,6 @@ In this section, list and describe the features or functionality that you are wo
 - [ ] Feature 3 (Nikhil): Feedback/Suggestion.
 - [ ] Feature 4 (Farhana): Investors.
 
-> Add features as required. 
 
 ### Booking
 
@@ -38,11 +37,11 @@ Users can easily select their desired service, specify the date and time and Dro
 
 ### Applying for Job with Us
 
-Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php & link to the feature (shell.hamk.fi) .
+Users can effortlessly browse available positions, submit their applications, Enter thier email and Attach their Resume. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & link to the feature (shell.hamk.fi) .
 
 ### Feedback/Suggestion
 
-We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php & link to the feature (shell.hamk.fi) .
+We value our user's input! Share your thoughts and suggestions with us, Whether you have ideas for enhancing our cleaning services/offerings or suggestions for optimizing our website, so just put your name and your email followed by a large Space for you to share your every word. [Nikhil - Github](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) & [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/) .
 
 ### Investors
 
