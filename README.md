@@ -37,7 +37,7 @@ Users can easily select their desired service, specify the date and time and Dro
 
 ### Applying for Job with Us
 
-Users can effortlessly browse available positions, submit their applications, Enter thier email. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & [shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/) .
+Users can effortlessly browse available positions, submit their applications, Enter thier email. [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) & [Shell - Manpreet23000](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/) .
 
 ### Feedback/Suggestion
 
@@ -70,17 +70,7 @@ List and describe any forms that have been created as part of your project. Incl
 - Form 1 (Created By Gurpreet): Booking Services: [Github - Gurpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Gurpreet-booking.php) | Link to the form (shell.hamk.fi). | Validations Applied
 - Form 2: (Created By Manpreet): Apply-for-job: [Github - Manpreet](https://github.com/manukatnoria/Team27-WebProject/blob/main/Manpreet-job.php) | [Shell - Manpreet](http://shell.hamk.fi/~manpreet23000/Team27-WebProject/Manpreet-job.php).  | Validations Applied
 - Form 3: (Created By Nikhil): Feedback/Suggestion: [Github- Nikhil](https://github.com/manukatnoria/Team27-WebProject/blob/main/Nikhil-feedback.php) | [Shell - Nikhil23001](http://shell.hamk.fi/~nikhil23001/Project%20work/Team27-WebProject/Nikhil-feedback.php).  | Validations Applied
-- Form 3: (Created By Farhana): Invest in Us: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
-
----
-
-## Created Tables
-
-List any tables that you have created in the project work
-
-- Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-- Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+- Form 4: (Created By Farhana): Invest in Us: Link to the related code file (github) | Link to the form (shell.hamk.fi).  | Validations Applied
 
 ---
 
