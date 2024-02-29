@@ -121,9 +121,9 @@ body {
 .nikhil-feedback-form[type="submit"]:hover {
   background-color: #007bff;
 }
-
-
-
+.edit-response-button:hover {
+  background-color: #007bff;
+}
 
 
 
