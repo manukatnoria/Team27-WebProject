@@ -54,7 +54,7 @@ $conn->close();
 <br>
 <br>
 
-<form action="form/InvestorDirectory.php" method="post" class="Farhana">
+<form action="" method="post" class="Farhana">
 
     <label for="name">Your Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
